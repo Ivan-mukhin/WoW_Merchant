@@ -1,0 +1,25 @@
+All following notes are for World of Warcraft (not Classic)
+
+Regions: 
+    US (US and Oceania) | EU (Europe) | KR (Korea) | TW (Taiwan)
+
+API call structure:
+    https://{region}.api.blizzard.com/data/wow/connected-realm/{connected realm ID}/{requested data}/?namespace={name space type}&locale={language}&access_token={access token}
+
+    Example (Con.realm 121 auctions):
+        https://us.api.blizzard.com/data/wow/connected-realm/121/auctions?namespace=dynamic-us&locale=en_US&access_token=USaRGLkRHXgcMKV6oRaXo0bsFL6Siptzz4
+
+Connected Realms:
+    API call example (Con.realm 121 connected realm):
+        https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us&locale=en_US&access_token=USaRGLkRHXgcMKV6oRaXo0bsFL6Siptzz4
+
+    Main realm: 
+        ID: 121
+        Name: Azjol-Nerub
+    Connected Realms: 
+        Azjol-Nerub 121
+        Muradin 1182
+        Nordrassil 1359
+        Blackrock 10
+        Khaz Modan 1143
+        

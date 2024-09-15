@@ -1,0 +1,140 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us"
+    }
+  },
+  "id": 121,
+"has_queue": false,
+  "status": {
+    "type": "UP",
+    "name": "Up"
+  },
+  "population": {
+    "type": "HIGH",
+    "name": "High"
+  },
+  "realms": [
+    {
+      "id": 121,
+      "region": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us"
+        },
+        "name": "North America",
+        "id": 1
+      },
+      "connected_realm": {
+        "href": "https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us"
+      },
+      "name": "Azjol-Nerub",
+      "category": "United States",
+      "locale": "enUS",
+      "timezone": "America/Denver",
+      "type": {
+        "type": "NORMAL",
+        "name": "Normal"
+      },
+      "is_tournament": false,
+      "slug": "azjolnerub"
+    },
+    {
+      "id": 1182,
+      "region": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us"
+        },
+        "name": "North America",
+        "id": 1
+      },
+      "connected_realm": {
+        "href": "https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us"
+      },
+      "name": "Muradin",
+      "category": "United States",
+      "locale": "enUS",
+      "timezone": "America/Denver",
+      "type": {
+        "type": "NORMAL",
+        "name": "Normal"
+      },
+      "is_tournament": false,
+      "slug": "muradin"
+    },
+    {
+      "id": 1359,
+      "region": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us"
+        },
+        "name": "North America",
+        "id": 1
+      },
+      "connected_realm": {
+        "href": "https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us"
+      },
+      "name": "Nordrassil",
+      "category": "United States",
+      "locale": "enUS",
+      "timezone": "America/Denver",
+      "type": {
+        "type": "NORMAL",
+        "name": "Normal"
+      },
+      "is_tournament": false,
+      "slug": "nordrassil"
+    },
+    {
+      "id": 10,
+      "region": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us"
+        },
+        "name": "North America",
+        "id": 1
+      },
+      "connected_realm": {
+        "href": "https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us"
+      },
+      "name": "Blackrock",
+      "category": "United States",
+      "locale": "enUS",
+      "timezone": "America/Denver",
+      "type": {
+        "type": "NORMAL",
+        "name": "Normal"
+      },
+      "is_tournament": false,
+      "slug": "blackrock"
+    },
+    {
+      "id": 1143,
+      "region": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us"
+        },
+        "name": "North America",
+        "id": 1
+      },
+      "connected_realm": {
+        "href": "https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us"
+      },
+      "name": "Khaz Modan",
+      "category": "United States",
+      "locale": "enUS",
+      "timezone": "America/Denver",
+      "type": {
+        "type": "NORMAL",
+        "name": "Normal"
+      },
+      "is_tournament": false,
+      "slug": "khaz-modan"
+    }
+  ],
+  "mythic_leaderboards": {
+    "href": "https://us.api.blizzard.com/data/wow/connected-realm/121/mythic-leaderboard/?namespace=dynamic-us"
+  },
+  "auctions": {
+    "href": "https://us.api.blizzard.com/data/wow/connected-realm/121/auctions?namespace=dynamic-us"
+  }
+}
