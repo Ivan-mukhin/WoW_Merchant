@@ -15,4 +15,4 @@ parsedData = jsonParser(filePath)
 connectedRealms = parsedData['realms']
 
 for realm in connectedRealms:
-    print(realm['name'], realm['id'] )
+    print(realm['name'], realm['id'] ) 
